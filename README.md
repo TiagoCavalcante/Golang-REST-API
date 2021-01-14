@@ -25,8 +25,8 @@ To run you need to:
 ## routes
 | method | path          | description |
 |--------|---------------|-------------|
-| GET    | `/users`      | return all users and their information
-| GET    | `/users/<id>` | return the information about the user with the id `id`
-| POST   | `/users`      | create a user, receives a `application/json` body with the required parameters `name` and `email`, return the created user's id
-| PUT    | `/users/<id>` | edit the information about the user with the id `id`, receives a `application/json` body with the required parameters `name` and `email`
-| DELETE | `/users/<id>` | delete the user with the id `id`
+| GET    | `/users`      | return all users and their information |
+| GET    | `/users/<id>` | return the information about the user with the id `id` |
+| POST   | `/users`      | create a user, receives a `application/json` body with the required parameters `name` and `email`, return the created user's id |
+| PUT    | `/users/<id>` | edit the information about the user with the id `id`, receives a `application/json` body with the required parameters `name` and `email` |
+| DELETE | `/users/<id>` | delete the user with the id `id` |
